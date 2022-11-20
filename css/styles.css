@@ -1,0 +1,13 @@
+body {
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	background-color: #1b2838;
+
+}
+
+.form-control {
+	width: 500px;
+}
+
+.form-label {
+	color: blanchedalmond;
+}
