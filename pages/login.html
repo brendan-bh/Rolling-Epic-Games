@@ -34,9 +34,6 @@
             <li class="nav-item">
               <a class="btn btn-outline-light" aria-current="page" href="/index.html">USUARIO</a>
             </li>
-            <li class="nav-item">
-              <a class="btn btn-outline-light" aria-current="page" href="/pages/admin.html">ADMINISTRADOR</a>
-            </li>
           </ul>
           <div class="text-end">
             <a class="btn btn-outline-light me-2" aria-current="page" href="/pages/login.html">Login</a>
@@ -57,8 +54,8 @@
             <div class="col-12 col-md-6 ">
               <div class="p-4 login-container">
                 <!-- <======= Lado izquierdo login =======> -->
+                <form id="form-submit" class="row justify-content-center align-items-center g-2">
                 <div class="px-lg-3 py-lg-4 p-4 w-100 aling-self-center">
-                  <form>
                     <h1 class="font-weight-bold  mb-3">Iniciar sesión</h1>
                       <div class="col col-md-6">
                         <label for="inputEmail" class="form-label">Email</label>
@@ -70,7 +67,7 @@
                         <input type="password" class="form-control" id="inputPassword">
                     </div>
                       <!-- Recuperar contraseña modal -->
-                      <a type="button" class="font-weight-bold form-text" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">¿Olvidaste tu contraseña?</a>
+                      <a type="button" class="font-weight-bold form-text" data-bs-toggle="modal" data-bs-target="#exampleModal" href="/pages/error404.html">¿Olvidaste tu contraseña?</a>
                       <!-- Modal -->
                       <div class="modal fade custom-headel-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog p-4 modal-custom-2">
@@ -78,9 +75,6 @@
                             <div class="pb-3 ps-4 pe-4 ">
                               
                               </div>
-                              <div class="pb-3 ps-4 pe-4 aling-self-center">
-                                <label for="exampleFormControlInput1" class="form-label "></label>
-                                <input type="email" minlength="10" maxlength="30" required="" autofocus="" autocomplete="" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico, usuario o  teléfono">
                                 </div>
                             </div>
                           </div>

@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
 });
 
+
 let usuarios = [];
 
 class Usuario {
