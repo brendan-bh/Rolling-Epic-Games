@@ -3,6 +3,17 @@ body {
 	background-color: #1b2838;
 
 }
+.form-control {
+	width: 500px;
+}
+
+.form-label {
+	color: blanchedalmond;
+}
+
+p {
+	color: blanchedalmond;
+}
 
 /* ===== Publicidad start ===== */
 .sideAdvertising {
@@ -63,3 +74,5 @@ body {
 }
 
 /* ========= fin buscador ========== */
+
+

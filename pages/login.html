@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling Epic Games</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <!-- ========== COMIENZO NAVBAR ======== -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-secondary"></span>
+        </button>
+        <a class="navbar-brand" href="/index.html">
+          <img src="/images/logo2.png" alt="Rolling-epicGames" height="30px"></a>
+        <div class="collapse navbar-collapse container-fluid" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="btn btn-outline-light" aria-current="page" href="/index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-light" aria-current="page" href="/pages/novedades.html">NOVEDADES</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-light" aria-current="page" href="/pages/about.html">ACERCA DE NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-light" aria-current="page" href="/index.html">USUARIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-light" aria-current="page" href="/pages/admin.html">ADMINISTRADOR</a>
+            </li>
+          </ul>
+          <div class="text-end">
+            <a class="btn btn-outline-light me-2" aria-current="page" href="/pages/login.html">Login</a>
+            <a class="btn btn-primary" aria-current="page" href="/pages/registro.html">Registro</a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========= FIN NAVBAR ======== -->
+
+    <!-- ====== INICIO LOGIN ====== -->
+    <main>
+      <div class="container text-light py-2">
+        <section>
+          <div class="row gx-5">
+            <div class="col-12 col-md-6 ">
+              <div class="p-4 login-container">
+                <!-- <======= Lado izquierdo login =======> -->
+                <div class="px-lg-3 py-lg-4 p-4 w-100 aling-self-center">
+                  <form>
+                    <h1 class="font-weight-bold  mb-3">Iniciar sesión</h1>
+                      <div class="col col-md-6">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-5">
+                      <div class="col-md-6">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                      <!-- Recuperar contraseña modal -->
+                      <a type="button" class="font-weight-bold form-text" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">¿Olvidaste tu contraseña?</a>
+                      <!-- Modal -->
+                      <div class="modal fade custom-headel-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog p-4 modal-custom-2">
+                          <div class="modal-content login-modal-2">
+                            <div class="pb-3 ps-4 pe-4 ">
+                              
+                              </div>
+                              <div class="pb-3 ps-4 pe-4 aling-self-center">
+                                <label for="exampleFormControlInput1" class="form-label "></label>
+                                <input type="email" minlength="10" maxlength="30" required="" autofocus="" autocomplete="" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico, usuario o  teléfono">
+                                </div>
+                            </div>
+                          </div>
+                          </div>
+                    <div class="d-grid gap-2 m-3">
+                      <button type="submit" class="btn btn-primary">Iniciar</button>
+                    </div>
+                    <p class="font-weight-bold text-center text-muted p-3 mb-3">O inicia sesión con</p>
+                    <div class="d-flex justify-content-around">
+                      <a href="https://mail.google.com/mail/u/0/#inbox" class="btn btn-outline-light flex-grow-1 m-2 "><i class=""></i> Google</a>
+                      <a href="https://www.facebook.com/" class="btn btn-outline-light flex-grow-1 m-2 "><i class=""></i>
+                        Facebook</a>
+                    </div>
+                    <div class="text-center px-lg-5 pt-lg-2 pb-lg-4 p-4 2-100">
+                      <p class="d-inline-block mb-1 ">¿Primera vez en Rolling Epic Game?</p>
+                      <a class="text-light" href="/pages/registro.html">Registrate ahora</a>
+                    </div>
+                  </form>
+                </section>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+  crossorigin="anonymous"
+></script>
+    <script src="https://use.fontawesome.com/823835b326.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>
