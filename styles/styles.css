@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Poppins', 'Roboto', sans-serif;
 	background-color: #1b2838;
@@ -12,7 +13,7 @@ body {
 }
 
 p {
-	color: blanchedalmond;
+	color: white;
 }
 
 /* ===== Publicidad start ===== */
@@ -74,5 +75,172 @@ p {
 }
 
 /* ========= fin buscador ========== */
+/* ==== ABOUT START ===== */
+
+.card-title{
+    text-align: left; 
+    font-size: 30px;
+}
+.card-text{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+.card {
+    position: relative;
+    width: 180px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 20px;
+    margin-left: 55px;
+}
+
+.card .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+}
+
+.card .content .img {
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.card .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card .content span {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to right, #5e2066, #4832c7);
+    transform: rotate(-180deg);
+    top: -20px;
+    left: -100px;
+}
+
+.card .content h4 {
+    font-size: 18px;
+    color: #1a1919;
+    margin-top: 40px;
+}
+
+.card .content h6 {
+    font-size: 13px;
+    color: #73217e;
+}
+
+.card .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+
+.card .links {
+    position: absolute;
+    z-index: 90;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 5px;
+    align-items: center;
+    right: 10px;
+    top: 10px;
+    transition: .5s;
+}
+
+.card:hover .links {
+    right: -35px;
+    border-radius: 0 10px 10px 0;
+}
+
+.card .links a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #646069;
+    text-decoration: none;
+}
+
+.card .links a:nth-child(1):hover {
+    color: #0158ca;
+}
+
+.card .links a:nth-child(2):hover {
+    color: #11f049;
+}
+
+.card .links a:nth-child(3):hover {
+    color: #50277d;
+}
 
 
+/* ========= ABOUT END ======== */
+
+/* ======= footer start ========= */
+
+footer {   
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.logo{
+    text-align: center;
+}
+
+h3{
+    color: white
+}
+
+.box-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+.content__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin-top: 10px;
+}
+.box{
+    color: antiquewhite;
+    text-align: right;
+}
+.content__footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 1px;
+}
+
+.box-1 {
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+/* ============ footer end ========= */
